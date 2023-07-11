@@ -1,0 +1,62 @@
+{
+    "name": "PlayInputAction",
+    "maps": [
+        {
+            "name": "Play",
+            "id": "75198331-475b-4073-881a-fe2f8a6bed5c",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "0b9b8d50-0651-4667-a6c9-a018606335f9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2c88ff3d-aca6-4817-bf62-4296e4862b0b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "ClickAndTouch",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d6c6f0a-03d8-4369-b4f6-f037b2f23e2e",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "ClickAndTouch",
+            "bindingGroup": "ClickAndTouch",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
